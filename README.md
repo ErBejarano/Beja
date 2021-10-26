@@ -14,7 +14,7 @@ Este dataset tiene 5416 líneas de datos y en la primera fila se encuentran los 
   - NBA_TEST.py: Contiene funciones de test para probar las funciones del módulo NBA.py. En este módulo está la funcion main 
 
 ## Estructura del dataset
-Para cada jugador se registran 17 datos. Para el dato "Last_Season" lo hemos convertido a tipo boolean. Por lo tanto, el dataset está compuesto por 17 columnas, con la siguiente información:
+Para cada jugador se registran 17 datos. Por lo tanto, el dataset está compuesto por 17 columnas, con la siguiente información:
 
   - **Player**: apellido y nombre del jugador. Es una cadena de caracteres(str).
   - **Team**: equipo en el que juega. Es una cadena de caracteres(str).
@@ -35,3 +35,11 @@ Para cada jugador se registran 17 datos. Para el dato "Last_Season" lo hemos con
   - **Last_Season**: indica si jugo la temporada pasada. Dato tipo boolean.
 
 ## Tipos implementados
+Para trabajar con los datos del dataset se ha definido la siguiente tupla con nombre:
+                                              
+`Registro=namedtuple('Registro','Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Pre_draft_Team,Real_value,Height_CM,Weight_KG,Last_Season')`
+
+Las decisiones de diseño más destacadas de este tipo son:
+  - Para el dato "Last_Season" del dataset lo hemos convertido a tipo boolean.
+
+## Funciones implementados
