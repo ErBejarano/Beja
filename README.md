@@ -52,3 +52,5 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
 
 ### Modulo NBA_TEST
 En este modulo se han definido funciones para probar las funciones del modulo NBA.py. Cada funcion de este módulo se usa para probar la función con que tiene el mismo nombre (pero sin comenzar por test\_ del módulo NBA. Por ejemplo, la función test_lee_datos prueba la función lee_datos.
+
+  - **test_lee_datos()**
