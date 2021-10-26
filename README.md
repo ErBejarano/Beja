@@ -45,7 +45,10 @@ Las decisiones de diseño más destacadas de este tipo son:
 ## Funciones implementadas
 ### Modulo NBA
 #### Entrega 1
-  - **Bloque 0**
-  - **def lee_datos(fichero):** lee los datos del fichero csv y devuelve una lista de tuplas con todos los datos del fichero. Para implementar esta función se han creado las siguientes funciones auxiliares:
-parse_bool(cadena):: Función para convertir de cadena a booleano.
-def parse_date(cadena, formato = "%d/%m/Y"): Función para convertir de cadena a fecha.
+  * **Bloque 0**
+  * **def lee_datos(fichero):** lee los datos del fichero csv y devuelve una lista de tuplas con todos los datos del fichero. Para implementar esta función se han creado las siguientes funciones auxiliares:
+    * parse_bool(cadena): Función para convertir de cadena a booleano.
+    * parse_date(cadena, formato = "%d/%m/Y"): Función para convertir de cadena a fecha.
+
+### Modulo NBA_TEST
+En este modulo se han definido funciones para probar las funciones del modulo NBA.py. Cada funcion de este módulo se usa para probar la función con que tiene el mismo nombre (pero sin comenzar por test\_ del módulo NBA. Por ejemplo, la función test_lee_datos prueba la función lee_datos.
