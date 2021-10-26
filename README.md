@@ -42,4 +42,10 @@ Para trabajar con los datos del dataset se ha definido la siguiente tupla con no
 Las decisiones de diseño más destacadas de este tipo son:
   - Para el dato "Last_Season" del dataset lo hemos convertido a tipo boolean.
 
-## Funciones implementados
+## Funciones implementadas
+### Modulo NBA
+#### Entrega 1
+  - **Bloque 0**
+  - **def lee_datos(fichero):** lee los datos del fichero csv y devuelve una lista de tuplas con todos los datos del fichero. Para implementar esta función se han creado las siguientes funciones auxiliares:
+parse_bool(cadena):: Función para convertir de cadena a booleano.
+def parse_date(cadena, formato = "%d/%m/Y"): Función para convertir de cadena a fecha.
