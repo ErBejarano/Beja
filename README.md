@@ -14,6 +14,24 @@ Este dataset tiene 5416 líneas de datos y en la primera fila se encuentran los 
   - NBA_TEST.py: Contiene funciones de test para probar las funciones del módulo NBA.py. En este módulo está la funcion main 
 
 ## Estructura del dataset
-Para cada jugador se registran 17 datos. Por lo tanto, el dataset está compuesto por 17 columnas, con la siguiente descripción:
+Para cada jugador se registran 17 datos. Para el dato "Last_Season" lo hemos convertido a tipo boolean. Por lo tanto, el dataset está compuesto por 17 columnas, con la siguiente información:
 
-  - Player:
+  - **Player**: apellido y nombre del jugador. Es una cadena de caracteres(str).
+  - **Team**: equipo en el que juega. Es una cadena de caracteres(str).
+  - **Conference**: confederacion en la que juega. Es una cadena de caracteres(str).
+  - **Date**: fecha en la que fue jugador de la semana. Es un dato tipo date.
+  - **Position**: posicion en la que juega. Es una cadena de caracteres(str).
+  - **Height**: altura en pulgadas. Es un dato tipo float.
+  - **Weight**: peso en pulgadas. Es un dato tipo entero(int).
+  - **Age**: edad del juagador. Es un dato tipo entero(int).
+  - **Darft_Year**: año en el que se unio al equipo. Dato tipo entero(int).
+  - **Seasons_in_league**: temporadas jugando en la liga. Dato tipo entero(int).
+  - **Season**: temporada en la que consiguio ser el jugador de la semana. Dato tipo entero(int).
+  - **Season_short**: temporada en la que consiguio ser el jugador de la semana pero solo en el año que lo fue. Dato tipo entero(int).
+  - **Pre_draft_Team**: equipo anterior en el que jugó. Es una cadena de caracteres(str).
+  - **Real_value**: valor real del jugador. Es un dato tipo float.
+  - **Height_CM**: altura en centímetros. Dato tipo entero(int).
+  - **Weight_KG**: peso en kilogramos. Dato tipo entero(int).
+  - **Last_Season**: indica si jugo la temporada pasada. Dato tipo boolean.
+
+## Tipos implementados
