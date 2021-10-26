@@ -11,7 +11,7 @@ Este dataset tiene 5416 líneas de datos y en la primera fila se encuentran los 
 
 /src: Contiene los diferentes módulos de Python que componen el proyecto.
   - NBA.py: Contiene funciones para obtener datos .
-  - NBA_TEST.py: Contiene funciones de test para probar las funciones del módulo NBA.py. En este módulo está la funcion main 
+  - NBA_TEST.py: Contiene funciones de test para probar las funciones del módulo NBA.py.
 
 ## Estructura del dataset
 Para cada jugador se registran 17 datos. Por lo tanto, el dataset está compuesto por 17 columnas, con la siguiente información:
@@ -24,22 +24,22 @@ Para cada jugador se registran 17 datos. Por lo tanto, el dataset está compuest
   - **Height**: altura en pulgadas. Es un dato tipo float.
   - **Weight**: peso en pulgadas. Es un dato tipo entero(int).
   - **Age**: edad del juagador. Es un dato tipo entero(int).
-  - **Darft_Year**: año en el que se unio al equipo. Dato tipo entero(int).
+  - **Darft_Year**: año en el que se unió al equipo. Dato tipo entero(int).
   - **Seasons_in_league**: temporadas jugando en la liga. Dato tipo entero(int).
-  - **Season**: temporada en la que consiguio ser el jugador de la semana. Dato tipo entero(int).
-  - **Season_short**: temporada en la que consiguio ser el jugador de la semana pero solo en el año que lo fue. Dato tipo entero(int).
+  - **Season**: temporada en la que consiguió ser el jugador de la semana. Dato tipo entero(int).
+  - **Season_short**: temporada en la que consiguió ser el jugador de la semana pero solo en el año que lo fue. Dato tipo entero(int).
   - **Pre_draft_Team**: equipo anterior en el que jugó. Es una cadena de caracteres(str).
   - **Real_value**: valor real del jugador. Es un dato tipo float.
   - **Height_CM**: altura en centímetros. Dato tipo entero(int).
   - **Weight_KG**: peso en kilogramos. Dato tipo entero(int).
-  - **Last_Season**: indica si jugo la temporada pasada. Dato tipo boolean.
+  - **Last_Season**: indica si jugó la temporada pasada. Dato tipo boolean.
 
 ## Tipos implementados
 Para trabajar con los datos del dataset se ha definido la siguiente tupla con nombre:
                                               
 `Registro=namedtuple('Registro','Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Pre_draft_Team,Real_value,Height_CM,Weight_KG,Last_Season')`
 
-Las decisiones de diseño más destacadas de este tipo son:
+He transformado los datos la última columna. Eran datos de tipo cadena de caracteres ahora son tipo bool. El cambio es el siguiente:
   - Para el dato "Last_Season" del dataset lo hemos convertido a tipo boolean.
 
 ## Funciones implementadas
