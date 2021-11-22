@@ -53,8 +53,8 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
 #### Entrega 2
   * **Bloque 1**
   * **def calcula_equipos(datos):** dada una lista de tuplas a traves de la tupla "Registro" que es una nametupled que ese pasa como parmetro de la función. Se toma los datos de los jugadores de la NBA y devuelve una tupla con los nombres de los equipos sin repetir.
-  * **def calcular_media_edades(datos):** 
-    - def filtrar_por_edad(datos):
+  * **def calcular_media_edades(datos):** Dada una lista de tuplas de tipo "Registro", devuelve la media de edad de los jugadores cuya información se recoge en la lista de tuplas dada como parámetro.
+    - * **def filtrar_por_edad(datos):** 
 
   * **Bloque 2**
   
