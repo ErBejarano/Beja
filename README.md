@@ -62,7 +62,7 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
     * **def filtrar_por_temporada** dada una lista de tuplas de tipo "Registro", devuelve una lista con toda la informacion de la tupla "Registro". La información se recoge en la lista de tuplas dada como parámetro y esta estara filtrada por un segundo parametro llamado temporada que es el año en el que se realiza la temporada de la NBA.
   * **def agrupar_por_posicion(datos):** Dada una lista de tuplas de tipo "Registro", devuelve un diccionario en el que las claves representan las posiciones de los jugadores y los valores son listas de los registros que tienen esa posición.
 
-### Modulo NBA_TEST
+## Modulo NBA_TEST
 En este modulo se han definido funciones para probar las funciones del modulo NBA.py. Cada funcion de este módulo se usa para probar la función con que tiene el mismo nombre (pero sin comenzar por test\_ del módulo NBA. Por ejemplo, la función test_lee_datos prueba la función lee_datos.
 
   - **test_lee_datos()**
