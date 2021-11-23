@@ -51,12 +51,12 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
     * parse_date(cadena, formato = "%d/%m/Y"): Función para convertir de cadena a fecha.
 
 ## Entrega 2
-  ##Bloque 1
+  ## Bloque 1
   * **def calcula_equipos(datos):** dada una lista de tuplas a traves de la tupla "Registro" que es una nametupled que ese pasa como parmetro de la función. Se toma los datos de los jugadores de la NBA y devuelve una tupla con los nombres de los equipos sin repetir.
   * **def calcular_media_edades(datos):** dada una lista de tuplas de tipo "Registro", devuelve la media de edad de los jugadores cuya información se recoge en la lista de tuplas dada como parámetro.
     * **def filtrar_por_edad(datos):** dada una lista de tuplas de tipo "Registro", devuelve una lista con todas las edades de los jugadores cuya información se recoge en la lista de tuplas dada como parámetro. 
 
-  ##Bloque 2
+  ## Bloque 2
   * **def jugador_con_mas_altura(datos):** dada una lista de tuplas de tipo "Registro", devuelve una tupla con el nombre de jugador, el equipo al que pertence y su altura, en el momento que PLayer of the Week. La información se recoge en la lista de tuplas dada como parámetro.
   * **def top_jugadores_de_una_confederacion_por_año(datos, temporada, limite=10, confederacion=None):** dada una lista de tuplas de tipo "Registro", devuelve una tupla con el nombre de jugador, las temporadas que lleva en la liga y la fecha en la que consiguio ser PLayer of the Week. Estas tuplas estran filtradas segun los parámetros de la función, puede ser según el año de la temporada y la confederacion. La información se recoge en la lista de tuplas dada como parámetro.
     * **def filtrar_por_temporada** dada una lista de tuplas de tipo "Registro", devuelve una lista con toda la informacion de la tupla "Registro". La información se recoge en la lista de tuplas dada como parámetro y esta estara filtrada por un segundo parametro llamado temporada que es el año en el que se realiza la temporada de la NBA.
