@@ -57,7 +57,9 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
     * **def filtrar_por_edad(datos):** dada una lista de tuplas de tipo "Registro", devuelve una lista con todas las edades de los jugadores cuya información se recoge en la lista de tuplas dada como parámetro. 
 
   * **Bloque 2**
-  
+  * **def jugador_con_mas_altura(datos):** dada una lista de tuplas de tipo "Registro", devuelve una tupla con el nombre de jugador, el equipo al que pertence y su altura, en el momento que PLayer of the Week. La información se recoge en la lista de tuplas dada como parámetro.
+  * **def top_jugadores_de_una_confederacion_por_año(datos, temporada, limite=10, confederacion=None):** dada una lista de tuplas de tipo "Registro", devuelve una tupla con el nombre de jugador, las temporadas que lleva en la liga y la fecha en la que consiguio ser PLayer of the Week. Estas tuplas estran filtradas segun los parámetros de la función, puede ser según el año de la temporada y la confederacion. La información se recoge en la lista de tuplas dada como parámetro.
+    * **def filtrar_por_temporada** dada una lista de tuplas de tipo "Registro", devuelve una lista con toda la informacion de la tupla "Registro". La información se recoge en la lista de tuplas dada como parámetro y esta estara filtrada por un segundo parametro llamado temporada que es el año en el que se realiza la temporada de la NBA.
 
 ### Modulo NBA_TEST
 En este modulo se han definido funciones para probar las funciones del modulo NBA.py. Cada funcion de este módulo se usa para probar la función con que tiene el mismo nombre (pero sin comenzar por test\_ del módulo NBA. Por ejemplo, la función test_lee_datos prueba la función lee_datos.
