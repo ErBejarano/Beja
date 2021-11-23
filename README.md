@@ -66,3 +66,8 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
 En este modulo se han definido funciones para probar las funciones del modulo NBA.py. Cada funcion de este módulo se usa para probar la función con que tiene el mismo nombre (pero sin comenzar por test\_ del módulo NBA. Por ejemplo, la función test_lee_datos prueba la función lee_datos.
 
   - **test_lee_datos()**
+  - **test_calcula_equipos()
+  - **test_calcular_media_edades()
+  - **test_jugador_con_mas_altura()
+  - **test_top_jugadores_de_una_confederacion_por_año()
+  - **test_agrupar_por_posicion()
