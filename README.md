@@ -43,9 +43,9 @@ He transformado los datos la última columna. Eran datos de tipo cadena de carac
   - Para el dato "Last_Season" del dataset lo hemos convertido a tipo boolean.
 
 ## Funciones implementadas
-En este proyecto se han implementado las siguientes funciones, que están clasificadas según los bloques y tipos de funciones que se requieren en cada una de las entregas. El módulo principal es el módulo poverty.py, así que aquí es donde se hará referencia a cada uno de los bloques de las entregas.
+En este proyecto se han implementado las siguientes funciones en diferentes módulos. Las funciones están clasificadas según los bloques y tipos de funciones que se requieren en cada una de las entregas. El módulo principal es el módulo NBA.py. Es en este módulo donde se hará referencia a cada uno de los bloques de las entregas del proyecto.
 
-### Modulo NBA
+## Modulo NBA
 ## Entrega 1
   * **Bloque 0**
   * **def lee_datos(fichero):** lee los datos del fichero csv y devuelve una lista de tuplas con todos los datos del fichero. Para implementar esta función se han creado las siguientes funciones auxiliares:
